@@ -58,7 +58,7 @@ while True:
 
             server = smtplib.SMTP('smtp.gmail.com', 587)
             server.starttls()
-            server.login("From@gmail.com", "RaspberryPi2817")
+            server.login("From@gmail.com", "password")
 
             server.sendmail("From@gmail.com", "To@gmail.com", msg.as_string())
             server.sendmail("From@gmail.com", "To@gmail.com", msg.as_string())           
@@ -91,7 +91,7 @@ while True:
 
             server = smtplib.SMTP('smtp.gmail.com', 587)
             server.starttls()
-            server.login("From@gmail.com", "RaspberryPi2817")
+            server.login("From@gmail.com", "password")
 
             server.sendmail("From@gmail.com", "To@gmail.com", msg.as_string())
             server.sendmail("From@gmail.com", "To@gmail.com", msg.as_string())           
@@ -124,7 +124,7 @@ while True:
 
             server = smtplib.SMTP('smtp.gmail.com', 587)
             server.starttls()
-            server.login("From@gmail.com", "RaspberryPi2817")
+            server.login("From@gmail.com", "password")
 
             server.sendmail("From@gmail.com", "To@gmail.com", msg.as_string())
             server.sendmail("From@gmail.com", "To@gmail.com", msg.as_string())           
